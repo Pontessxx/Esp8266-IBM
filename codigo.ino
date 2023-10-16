@@ -28,6 +28,7 @@ void initSerial() {
     Serial.begin(115200);
 }
 
+
 void initWiFi() {
     delay(10);
     Serial.println("------Conexão WI-FI------");
